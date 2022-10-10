@@ -315,4 +315,12 @@ p{
     .menuh:checked + .navmenuh {
         display: block;
     }
+
+    .estudios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 35px;
+    }
 }
