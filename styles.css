@@ -254,9 +254,14 @@ p{
 .galeryportafolio{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    flex-wrap: wrap;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 30px;
 }
+
 .galeryportafolio img{
     width: 400px;
     height: 300px;
