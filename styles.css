@@ -78,6 +78,7 @@ li a.active {
  }
  /* Descripcion */
  .description{
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,6 +87,7 @@ li a.active {
    
  }
  .aboutme{
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,12 +96,12 @@ li a.active {
     padding: 20px;
     background-color: var(--coloractive);
  }
- .aboutme p {
-    height: 150px;
+ .description p {
+    height: auto;
     max-width: 300px;
     padding: auto;
     text-align: center;
-    background-color:var(--coloractive);
+    background-color: var(--coloractive);
 
  }
  .aboutme h1{
@@ -204,7 +206,7 @@ p{
 
   .socialnetworldf  :hover{
     transition-duration: 1s;  
-    color: rgb(46, 12, 194);  
+    color: rgb(0, 119, 181);  
     font-size: 2rem;
     text-align: center;
   }
@@ -217,7 +219,7 @@ p{
   }
   .socialnetworldw  :hover{
     transition-duration: 1s;  
-    color: #56cf1d;  
+    color: rgb(37, 211, 102);  
     font-size: 2rem;
     text-align: center;
   }
